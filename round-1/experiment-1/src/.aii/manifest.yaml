@@ -1,0 +1,7 @@
+entries:
+  - path: __pycache__/
+    delete: regenerable
+    source: "python method.py"
+  - path: .venv/
+    delete: regenerable
+    source: "uv venv .venv --python=3.12 && uv pip install torch --extra-index-url https://download.pytorch.org/whl/cpu transformers datasets numpy scipy loguru"
