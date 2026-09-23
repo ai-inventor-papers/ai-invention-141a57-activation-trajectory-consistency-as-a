@@ -1,0 +1,29 @@
+[project]
+name = "safety-metric-evaluation-expansion"
+version = "0.2.0"
+requires-python = ">=3.12"
+description = "Expand AEN/ANG safety metrics across 4 model families with bootstrapped CIs and cross-family analysis"
+dependencies = [
+    "loguru==0.7.3",
+    "numpy==2.5.2",
+    "scipy==1.18.1",
+    "torch==2.5.1+cpu",
+    "transformers==4.57.6",
+    "tqdm==4.66.5",
+    "huggingface-hub==0.36.2",
+    "tokenizers==0.22.2",
+    "safetensors==0.8.0",
+    "filelock==3.32.3",
+    "fsspec==2026.7.0",
+    "requests==2.28.1",
+    "pyyaml==6.0.3",
+    "jinja2==3.1.6",
+    "packaging==24.1",
+    "typing-extensions==4.16.0",
+    "sympy==1.13.1",
+    "mpmath==1.3.0",
+    "networkx==3.6.1",
+]
+
+[tool.uv]
+extra-index-url = ["https://download.pytorch.org/whl/cpu"]
