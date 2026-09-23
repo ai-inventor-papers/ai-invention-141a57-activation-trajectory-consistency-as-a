@@ -1,0 +1,11 @@
+[project]
+name = "safety-dataset-mech-interp"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru==0.7.3",
+    "numpy==2.5.3",
+    "pandas==3.0.6",
+    "scipy==1.18.1",
+    "datasets==5.0.1",
+]
