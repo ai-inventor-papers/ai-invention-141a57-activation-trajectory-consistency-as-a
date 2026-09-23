@@ -1,0 +1,4 @@
+entries:
+  - path: hf_cache/
+    delete: redownloadable
+    source: "huggingface-cli download <model-id>"
